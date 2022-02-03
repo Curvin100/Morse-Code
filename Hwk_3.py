@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 29 15:33:05 2022
-
-@author: kevin
-"""
-
 def text_to_morse(translate):
     B = ('-...')
     E = ('.')
@@ -44,7 +37,7 @@ intro = ("""
 
 print(intro)
 
-index = 6
+index = 10000000
 while index > 0:
     Letter = input('Please enter an uppercase letter: ')
     morse_code = text_to_morse(Letter)
